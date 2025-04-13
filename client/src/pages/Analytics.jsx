@@ -28,7 +28,7 @@ const AnalyticsPage = () => {
       try {
         setLoading(true);
         const res = await axios.get(
-          `http://localhost:3000/api/v1/link/${id}/analytics`,
+          `${import.meta.env.VITE_API_URL}/link/${id}/analytics`,
           { withCredentials: true }
         );
 
