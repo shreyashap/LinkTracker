@@ -229,7 +229,7 @@ const LinkTable = () => {
               )}
             </>
           ) : (
-            <div className="text-center text-2xl font-normal">
+            <div className="text-center text-2xl font-normal text-gray-400">
               No data found
             </div>
           )}
