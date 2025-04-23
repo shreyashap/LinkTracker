@@ -73,7 +73,7 @@ const Navbar = () => {
         )}
 
         {showDropdown && user && (
-          <div className="absolute top-10 right-0 mt-2 w-48 bg-white dark:bg-[#2d2d2d] border border-gray-200 dark:border-gray-700 rounded-lg shadow-lg p-2">
+          <div className="absolute top-10 right-0 mt-2 w-48 bg-white dark:bg-[#2d2d2d] border border-gray-200 dark:border-gray-700 rounded-lg shadow-lg p-2 z-10">
             <p className="text-gray-900 dark:text-white text-sm mb-2">
               Hello, {username}
             </p>

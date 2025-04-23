@@ -67,7 +67,7 @@ const LinkTable = () => {
   };
 
   return (
-    <div className="bg-white dark:bg-[#1f1f1f] shadow-xl rounded-xl p-6 transition-all duration-300">
+    <div className="bg-white dark:bg-[#1f1f1f] shadow-xl rounded-xl p-6 transition-all duration-300 w-md mx-auto md:w-full overflow-x-auto">
       {/* Header */}
       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-6 gap-4">
         <h2 className="text-xl font-semibold text-gray-800 dark:text-white">
@@ -79,7 +79,7 @@ const LinkTable = () => {
           <input
             type="text"
             placeholder="Search by long URL..."
-            className="w-full pl-10 pr-4 py-2 rounded-md bg-gray-100 dark:bg-[#2c2c2c] text-gray-800 dark:text-white placeholder:text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500"
+            className="w-80 mx-auto md:w-full pl-10 pr-4 py-2 rounded-md bg-gray-100 dark:bg-[#2c2c2c] text-gray-800 dark:text-white placeholder:text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500"
             value={search}
             onChange={(e) => {
               setSearch(e.target.value);
@@ -106,7 +106,7 @@ const LinkTable = () => {
         <>
           {linkData?.length > 0 ? (
             <>
-              <div className="overflow-x-auto">
+              <div className="overflow-x-auto mx-auto pr-28 xs:pr-16 sm:pr-10 md:pr-0">
                 <table className="w-full text-sm table-auto">
                   <thead>
                     <tr className="bg-gray-100 dark:bg-[#2c2c2c] text-gray-600 dark:text-gray-300">
