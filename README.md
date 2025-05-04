@@ -52,14 +52,6 @@ Shrtly is a modern, full-stack web application that allows users to shorten long
 
 ---
 
-## 📸 Screenshots
-
-> Add screenshots of:
-- Dashboard
-- Analytics page
-- Link creation
-- Exported PDF preview
-
 ---
 
 ## 🛠️ Local Setup Instructions
